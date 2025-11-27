@@ -8,7 +8,6 @@ vectorizer = joblib.load("vectorizer.pkl")
 st.title("📰 Fake News Detection")
 
 st.write("Enter a news headline and click Predict.")
-
 # Text Input
 user_input = st.text_input("News text:")
 
